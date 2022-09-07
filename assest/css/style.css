@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0 6rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+header .logo a {
+    font-size: 17px;
+    font-weight: 600;
+    color: #373737;
+    display: inline-block;
+}
+
+header .navbar a {
+    color: #151515;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    margin-left: 10px;
+}
+
+header .navbar i {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+main {
+    background-color: #FBFBFB;
+    padding-top: 40px;
+    padding: 3rem 5rem;
+}
+
+main .box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .box .left {
+    width: 60%;
+}
+
+main .box .left img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.right {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.right .fiziki {
+    padding: 0 px;
+    background-color: #69ACF1;
+    height: 124px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.fiziki a {
+    font-size: 20px;
+    color: white;
+    font-weight: 50
+}
+
+.huquqi {
+    padding: 20px;
+    background-color: #0EC4A3;
+    height: 124px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.huquqi a {
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.mecelle {
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+    height: 124px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 8px 0px;
+}
+
+.mecelle a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.mecelle .republic {
+    color: #303030;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.mecelle .vergi {
+    color: #303030;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+@media(max-width: 576px) {
+    .container {
+        padding: 0 2rem;
+    }
+
+    header .logo a {
+        font-size: 12px;
+        font-weight: 600;
+        color: #373737;
+        display: inline-block;
+    }
+
+    header .navbar i {
+        font-size: medium;
+    }
+
+    header .navbar a {
+        display: none;
+    }
+
+    main {
+        background-color: #FBFBFB;
+        padding-top: 40px;
+        padding: 5rem 2rem;
+    }
+
+    main .box {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    main .box .left {
+        width: 100%;
+    }
+    
+    main .box .left img {
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    .right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    
+    }
+    
+    .right .fiziki {
+        margin-top: 30px;
+        padding: 0 px;
+        background-color: #69ACF1;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        margin-bottom: 30px;
+    }
+    
+    .fiziki a {
+        font-size: 20px;
+        color: white;
+        font-weight: 50
+    }
+    
+    .huquqi {
+        padding: 20px;
+        background-color: #0EC4A3;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        margin-bottom: 30px;
+    }
+    
+    .huquqi a {
+        font-size: 20px;
+        color: white;
+        font-weight: 500;
+    }
+    
+    .mecelle {
+        border-radius: 5px;
+        padding: 20px;
+        background-color: white;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0.5px 0.5px 8px 0px;
+    }
+    
+    .mecelle a {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .mecelle .republic {
+        color: #303030;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .mecelle .vergi {
+        color: #303030;
+        font-size: 24px;
+        font-weight: 600;
+    }
+}
+@media (min-width:992px) and (max-width:2000px) {
+    
+    .container {
+        padding: 0 6rem;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 0;
+    }
+    
+    header .logo a {
+        font-size: 17px;
+        font-weight: 600;
+        color: #373737;
+        display: inline-block;
+    }
+    
+    header .navbar a {
+        color: #151515;
+        font-size: 18px;
+        font-weight: 500;
+        text-decoration: none;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+        margin-left: 10px;
+    }
+    
+    header .navbar i {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    
+    main {
+        background-color: #FBFBFB;
+        padding-top: 40px;
+        padding: 3rem 5rem;
+    }
+    
+    main .box {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    main .box .left {
+        width: 60%;
+    }
+    
+    main .box .left img {
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    .right {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+    
+    .right .fiziki {
+        padding: 0 px;
+        background-color: #69ACF1;
+        height: 124px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+    
+    .fiziki a {
+        font-size: 20px;
+        color: white;
+        font-weight: 50
+    }
+    
+    .huquqi {
+        padding: 20px;
+        background-color: #0EC4A3;
+        height: 124px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+    
+    .huquqi a {
+        font-size: 20px;
+        color: white;
+        font-weight: 500;
+    }
+    
+    .mecelle {
+        border-radius: 5px;
+        padding: 20px;
+        background-color: white;
+        height: 124px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 1px 1px 8px 0px;
+    }
+    
+    .mecelle a {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .mecelle .republic {
+        color: #303030;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .mecelle .vergi {
+        color: #303030;
+        font-size: 24px;
+        font-weight: 600;
+    }
+}
+/* main .box .right{
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: column;
+}
+main .right{
+    width: 100%;
+}
+main .right .fiziki a{
+    background-color: #68ACF1;
+    color: white;
+    height: 124px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+main .right .huquqi a{
+    background-color: #10C4A3;
+    color: white;
+    height: 124px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+main .right .mecelle a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+    border-radius: 5px;
+    background-color: bisque;
+}
+main .right .mecelle .text{
+    width: 90%;
+}
+main .right .mecelle .text p{
+width: 100%;
+}
+main .right .mecelle .gerb{
+   width: 10%;
+}
+main .right .mecelle .gerb img{
+    width: 100%;
+ } */
